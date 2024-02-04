@@ -1,14 +1,37 @@
-import { useForm } from 'react-hook-form';
 import Container from "@/components/ui/Container";
 import Head from "next/head";
 import styled from "styled-components";
+import { useForm } from "react-hook-form";
+import serverApi from "./api/server";
+import { useRouter } from "next/router";
 
 export default function Contato() {
-  const { register, handleSubmit } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-  const onSubmit = (data) => {
-    // Lógica para lidar com os dados do formulário
-    console.log(data);
+  let router = useRouter();
+
+  const enviarContato = async (dados) => {
+    const { nome, email, mensagem } = dados;
+
+    const opcoes = {
+      method: "POST",
+      body: JSON.stringify({ nome, email, mensagem }),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    };
+
+    try {
+      await fetch(`${serverApi}/contatos.json`, opcoes);
+      alert("Dados enviados!");
+      router.push("/");
+    } catch (error) {
+      console.error("Deu ruim no envio: " + error.message);
+    }
   };
 
   return (
@@ -23,29 +46,67 @@ export default function Contato() {
       </Head>
       <StyledContato>
         <h2>Fale Conosco</h2>
+
         <Container>
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <label htmlFor="name">Nome:</label>
-            <input
-              type="text"
-              id="name"
-              {...register('name', { required: true })}
-            />
+          <form
+            autoComplete="off"
+            action=""
+            method="post"
+            onSubmit={handleSubmit((dados) => {
+              enviarContato(dados);
+            })}
+          >
+            <div>
+              <label htmlFor="nome">Nome: </label>
+              <input
+                {...register("nome", { required: true })}
+                type="text"
+                name="nome"
+                id="nome"
+              />
+            </div>
 
-            <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              {...register('email', { required: true })}
-            />
+            {errors.nome?.type == "required" && <p>Você deve digitar o nome</p>}
 
-            <label htmlFor="message">Mensagem:</label>
-            <textarea
-              id="message"
-              {...register('message', { required: true })}
-            ></textarea>
+            <div>
+              <label htmlFor="email">E-mail: </label>
+              <input
+                {...register("email", { required: true })}
+                type="email"
+                name="email"
+                id="email"
+              />
+            </div>
+            {errors.email?.type == "required" && (
+              <p>Você deve digitar o e-mail</p>
+            )}
 
-            <button type="submit">Enviar</button>
+            <div>
+              <label htmlFor="mensagem">Mensagem:</label>
+              <textarea
+                {...register("mensagem", {
+                  required: true,
+                  minLength: 20,
+                })}
+                maxLength={500}
+                name="mensagem"
+                id="mensagem"
+                cols="30"
+                rows="8"
+              ></textarea>
+            </div>
+
+            {errors.mensagem?.type == "required" && (
+              <p>Você deve digitar uma mensagem</p>
+            )}
+
+            {errors.mensagem?.type == "minLength" && (
+              <p>Escreva pelo menos 20 caracteres</p>
+            )}
+
+            <div>
+              <button type="submit">Enviar mensagem</button>
+            </div>
           </form>
         </Container>
       </StyledContato>
@@ -56,59 +117,46 @@ export default function Contato() {
 const StyledContato = styled.section`
   h2 {
     text-align: center;
-    margin-bottom: 30px;
-    color: #333;
   }
 
-  form {
+  form > div {
+    margin-bottom: 1rem; /* Increased margin for better spacing */
     display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #202020;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex-direction: column; /* Adjusted flex-direction for better responsiveness */
 
-    label {
-      margin-top: 10px;
-      font-size: 16px;
-      color: #fff;
+    & + p {
+      color: red;
+      font-size: 0.8rem;
+      font-style: italic;
+      margin-top: 0.5rem; 
     }
 
-    input,
-    textarea {
-      margin-bottom: 10px;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 14px;
+    & label {
+      font-weight: bold;
+      font-size: 1rem; 
+      margin-bottom: 0.5rem; 
     }
 
-    textarea {
-      resize: vertical;
-      min-height: 100px;
-    }
-
-    button {
-      padding: 12px;
-      background-color: #007bff;
-      color: #fff;
+    & input,
+    & textarea {
+      width: 100%; 
       border: none;
-      border-radius: 4px;
+      box-shadow: var(--sombra-box);
+      padding: 0.5rem;
+      margin-bottom: 1rem; 
+    }
+
+    & button {
+      background-color: var(--cor-primaria-fundo);
+      color: var(--cor-primaria);
+      padding: 0.75rem 1.5rem; 
+      border: none;
       cursor: pointer;
-      font-size: 16px;
-      transition: background-color 0.3s;
+      transition: background-color 0.3s ease;
     }
 
-    button:hover {
-      background-color: #0056b3;
-    }
-  }
-
-  @media (min-width: 768px) {
-    form {
-      max-width: 600px;
+    & button:hover {
+      background-color: var(--cor-terciaria-fundo-hover);
     }
   }
 `;

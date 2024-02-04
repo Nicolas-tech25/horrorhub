@@ -41,8 +41,13 @@ export async function getStaticProps() {
     };
   }
 }
-export default function Watch({ posts }) {
+export default function Watch({ posts, categorias }) {
   const [listaDePosts, setListaDePosts] = useState(posts);
+
+  // Filter posts by category
+  const postsPorCategoria = (categoria) => {
+    return listaDePosts.filter((post) => post.categoria === categoria);
+  };
   return (
     <>
       <Head>
@@ -57,12 +62,12 @@ export default function Watch({ posts }) {
         <h2>Conheça o mundo do horror com algumas curiosidades:</h2>
 
         <Container>
-          <h3>Terror pra cagões:</h3>
-
-          <ListaPosts posts={listaDePosts} />
-          <h3>Terror pra ficar desconfortável:</h3>
-          <h3>Chuva de sangue:</h3>
-          <h3>Mocumentary:</h3>
+          {categorias.map((categoria) => (
+            <article key={categoria}>
+              <h1>{categoria}:</h1>
+              <ListaPosts posts={postsPorCategoria(categoria)} />
+            </article>
+          ))}
         </Container>
       </StyledWatch>
     </>
@@ -70,7 +75,11 @@ export default function Watch({ posts }) {
 }
 
 const StyledWatch = styled.section`
-  h2::before {
-    content: "🎬 ";
-  }
+h2::before {
+  content: "🎬 ";
+}
+h1{
+  font-size: 1.3rem;
+  color:var(--cor-primaria-fundo);;
+}
 `;

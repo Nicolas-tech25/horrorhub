@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 *,
 *::after,
 *::before {
@@ -11,7 +12,8 @@
   --cor-primaria: #f2f2f2;
   --cor-primaria-hover: #ebebeb;
   --cor-secundaria-fundo: #4ba3c3;
-  --cor-secundaria-fundo-hover: #2f88a8;
+  --cor-secundaria-fundo-hover: #6666ff;
+  --cor-terciaria-fundo-hover: #d21404;
   --cor-secundaria: #e4e3f2;
   --cor-secundaria-hover: #e2e2eb;
   --sombra-box: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -32,16 +34,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1,
 h2,
 h3 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Metal Mania', system-ui;
+  font-size: 2rem;
+}
+h1{
+  font-size: 1.5rem;
+  font-family: 'Trade Winds', system-ui;
 }
 h2 {
   margin: 1rem 0;
-  color: #262626;
+  color:  #262626;
   background-color: #f7f7f7;
-  padding: 1rem;
+  padding:1rem;
   box-shadow: var(--sombra-box);
   border-radius: var(--borda-arredondada);
 }

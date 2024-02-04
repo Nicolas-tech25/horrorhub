@@ -27,13 +27,15 @@ export default function Cabecalho() {
 const StyledHeader = styled.header`
   background-color: #202020;
   box-shadow: var(--sombra-box);
+  h1{
+    font-size: 1rem;
+  }
   h1 a {
     text-decoration: none;
     color: var(--cor-primaria);
     background-color: var(--cor-primaria-fundo);
     padding: 0.5rem 1.2rem;
     border-radius: var(--borda-arredondada);
-    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;

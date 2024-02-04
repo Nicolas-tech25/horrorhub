@@ -73,11 +73,11 @@ const StyledHome = styled.section`
   article {
     padding: 1rem;
   }
+
 `;
 
 const StyledSlider = styled.div`
   margin: 20px 0;
-
   .slick-dots {
     bottom: -30px;
   }

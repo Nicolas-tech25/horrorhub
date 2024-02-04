@@ -121,35 +121,47 @@
       "titulo": "Pânico"
     },
       "-NpdnETtyuD9Hr3gcv3A": {
-        "categoria": "terror pra cagões",
+        "categoria": "Mocumentary",
         "curiosidade": "Sequência do filme de horror antológico 'VHS', VHS 2 apresenta histórias aterrorizantes encontradas em fitas VHS.",
         "diretor": "Simon Barrett, Adam Wingard, Eduardo Sánchez, entre outros",
-        "imagem": "VHS2.jpg",
-        "nota": 4.5,
+        "imagem": "/images/VHS2.jpg",
+        "nota": 5.5,
         "resenha": "VHS 2 entrega uma dose intensa de horror, com histórias envolventes e visuais impressionantes. Prepare-se para alguns sustos genuínos!",
         "subtitulo": "Presencie o horror através das fitas VHS",
         "titulo": "VHS 2"
       },
-      "-NpdnETtuxWvOhuM": {
-        "categoria": "terror pra ficar desconfortável",
-        "curiosidade": "Megalomaniac mergulha nas profundezas da psique humana, explorando os limites do desconforto e da paranoia.",
-        "diretor": "Alice Johnson",
-        "imagem": "megalomaniac.jpg",
-        "nota": 3.8,
-        "resenha": "Um filme perturbador que desafia as fronteiras do terror psicológico. A mente humana nunca foi tão assustadora quanto neste thriller angustiante.",
-        "subtitulo": "Quando a mente se torna o verdadeiro labirinto do terror",
-        "titulo": "Megalomaniac"
-      },
       "-NpdnETtklqasipM": {
-        "categoria": "chuva de sangue",
+        "categoria": "Chuva de sangue",
         "curiosidade": "Fale Comigo é uma jornada sangrenta e visceral que mistura elementos de horror e suspense em uma trama repleta de reviravoltas.",
         "diretor": "Ana Silva",
-        "imagem": "Talk.jpg",
-        "nota": 4.0,
+        "imagem": "/images/Talk.jpg",
+        "nota": 9.0,
         "resenha": "Um festival de sangue e suspense que mantém os espectadores na ponta de seus assentos. Uma experiência cinematográfica única e arrepiante.",
         "subtitulo": "Quando as palavras se transformam em sangue",
         "titulo": "Fale Comigo"
-      }
+      },
+      
+
+"-NpdnETtrwzbhvjI": {
+  "categoria": "Mocumentary",
+  "curiosidade": "O Holocausto Canibal foi lançado em 1980 e é conhecido por sua abordagem extremamente gráfica e controversa. O filme foi proibido em vários países devido às suas cenas explícitas e foi objeto de controvérsias sobre se algumas cenas eram reais ou encenadas.",
+  "diretor": "Ruggero Deodato",
+  "imagem": "/images/Canibal.jpg",
+  "nota": 6,
+  "resenha": "O Holocausto Canibal é um mocumentário visceral que desafia os limites da representação cinematográfica. Dirigido por Ruggero Deodato, o filme mergulha os espectadores em uma jornada perturbadora, explorando os extremos da natureza humana e questionando a ética por trás da busca pela verdade a qualquer custo. A obra é um marco no gênero, deixando uma impressão duradoura na história do cinema de horror.",
+  "subtitulo": "A Fronteira Final da Crueldade",
+  "titulo": "O Holocausto Canibal"
+},
+"-NpdnETtjxzolgdF": {
+  "categoria": "Chuva de sangue",
+  "curiosidade": "Baskin é um filme turco de terror lançado em 2015 que atraiu a atenção por sua atmosfera sombria e imagens perturbadoras. O título refere-se a uma virada inesperada que os personagens principais enfrentam ao entrar em um pesadelo surreal.",
+  "diretor": "Can Evrenol",
+  "imagem": "/images/Baskin.jpg",
+  "nota": 6.8,
+  "resenha": "Baskin é uma jornada aterrorizante dirigida por Can Evrenol, que leva os espectadores a um mundo de horror visceral e simbolismo sombrio. O filme mergulha na psique humana, explorando o desconhecido com uma mistura única de imagens impactantes e enredos perturbadores. A atmosfera intensa e a narrativa desconcertante fazem de Baskin uma experiência cinematográfica inesquecível para os amantes do terror.",
+  "subtitulo": "A Jornada ao Coração das Trevas",
+  "titulo": "Baskin"
+}
     }
     
   }

@@ -1,24 +1,36 @@
 import Link from "next/link";
 import styled from "styled-components";
+
 export default function ListaPosts({ posts }) {
-  /* Se não houver nada aparece o primeiro if, caso tenha algum post ele anulara o 1º if e executara o posts */
   if (posts.length === 0) return <h3>Ainda não há posts</h3>;
+
+  // Get unique categories from the posts
+  const categories = Array.from(new Set(posts.map((post) => post.category)));
+
   return (
     <StyledListaPosts>
-      {posts.map((post) => {
-        return (
-          <article key={post.id}>
-            <Link href={`/posts/${post.id}`}>
-              <img src={post.imagem} alt="" srcset="" />
-              <h3>{post.titulo}</h3>
-              <p>{post.subtitulo}</p>
-            </Link>
-          </article>
-        );
-      })}
+      {categories.map((category) => (
+        <div key={category}>
+          
+          <div className="category-posts">
+            {posts
+              .filter((post) => post.category === category)
+              .map((post) => (
+                <article key={post.id}>
+                  <Link href={`/posts/${post.id}`}>
+                    <img src={post.imagem} alt="" />
+                    <h3>{post.titulo}</h3>
+                    <p>{post.subtitulo}</p>
+                  </Link>
+                </article>
+              ))}
+          </div>
+        </div>
+      ))}
     </StyledListaPosts>
   );
 }
+
 
 const StyledListaPosts = styled.div`
   article {
@@ -28,6 +40,9 @@ const StyledListaPosts = styled.div`
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
     transition: transform 200ms;
+    & h3{
+      font-size: 1.5rem;
+    }
 
     & a {
       text-decoration: none;
@@ -35,7 +50,7 @@ const StyledListaPosts = styled.div`
 
       &:hover,
       &:focus {
-        color: #0066ff;
+        color: #6666ff;
       }
     }
   }
@@ -54,7 +69,14 @@ const StyledListaPosts = styled.div`
     flex-wrap: wrap;
 
     article {
-      width: 20%;
+      width: 25%;
     }
+  }
+
+  .category-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
   }
 `;

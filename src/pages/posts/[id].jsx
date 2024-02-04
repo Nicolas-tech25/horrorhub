@@ -44,23 +44,31 @@ export default function Post({ post }) {
       <StyledPost>
         <h2>{post.titulo}</h2>
         <Container>
+          <article>
           <img src={post.imagem} alt="" />
           <h3>
             Diretor: <i>{post.diretor}</i>
           </h3>
           <p>
+            <b>Resenha Crítica:</b> {post.resenha}
+          </p>
+          <p>
             <b>Curiosidade:</b> {post.curiosidade}
           </p>
           <p>
-            <i>
-              <b>Categoria: </b>
-            </i>
-            {post.categoria}
+              <b>Nota para esta obra: </b>
+            <i>{post.nota}/10</i>
           </p>
+          </article>
         </Container>
       </StyledPost>
     </>
   );
 }
 
-const StyledPost = styled.article``;
+const StyledPost = styled.article`
+img{
+  width: 30%;
+}
+i{color: var(--cor-primaria-fundo);}
+`;

@@ -24,6 +24,8 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Metal Mania', system-ui;
+  font-size: 1.2rem;
 
   a {
     text-decoration: none;
@@ -43,7 +45,7 @@ const StyledNav = styled.nav`
 
     &:hover,
     &:focus {
-      background-color: #000;
+      background-color: var(--cor-terciaria-fundo-hover);
     }
 
     @media screen and (min-width: 700px) {
@@ -53,6 +55,6 @@ const StyledNav = styled.nav`
   }
 
   a.ativo {
-    background-color: black;
+    background-color: var(--cor-terciaria-fundo-hover);
   }
 `;
