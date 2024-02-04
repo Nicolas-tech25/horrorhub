@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variáveis no CSS</title>
+    <style>
+      :root {
+        --cor: blue;
+        --fonte: Verdana;
+      }
+
+      h1 {
+        color: var(--cor);
+      }
+      h2 {
+        font-family: var(--fonte);
+      }
+      p {
+        border: solid 2px var(--cor);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Usando variáveis no CSS</h1>
+    <hr />
+    <h2>Front-end</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+      asperiores?
+    </p>
+    <h2>Back-End</h2>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, facilis.
+    </p>
+  </body>
+</html>
