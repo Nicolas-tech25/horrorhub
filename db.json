@@ -1,60 +1,155 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "titulo": "Banho no catiorrinho",
-      "subtitulo": "Use as utensilios certos para banhar seu cão",
-      "descricao": "Banhos regulares mantém os pelos e pele de seu cachorro limpa, renovada e saudável. O processo de ensaboar e escovar remove resíduos de pelos e peles que já estão mortas, providenciando um maior respiro da pele de seu cachorro",
-      "categoria": "bem-estar"
+  "posts": {
+    "-NpdnETt2X7_Vc4h3qxC": {
+      "categoria": "Terror pra cagões",
+      "curiosidade": "Atividade Paranormal foi elogiado por seu baixo orçamento e abordagem de filmagem encontrada, tornando-se um sucesso de bilheteria.",
+      "diretor": "Oren Peli",
+      "imagem": "/images/Paranormal.jpg",
+      "nota": 8.7,
+      "resenha": "Atividade Paranormal é um triunfo do terror de baixo orçamento, explorando o medo do desconhecido e do sobrenatural. Oren Peli cria uma narrativa envolvente, aproveitando o poder da filmagem encontrada para aumentar a sensação de realismo e proximidade. A atmosfera crescente de tensão e as sequências de sustos inesperados fazem deste filme um fenômeno do gênero. Atividade Paranormal não apenas assusta, mas redefine as expectativas para filmes de terror, provando que o medo pode ser encontrado nos detalhes mais simples e cotidianos.",
+      "subtitulo": "O mal se manifesta em casa",
+      "titulo": "Atividade Paranormal"
     },
-    {
-      "id": 2,
-      "titulo": "Seu catiorrinho merece um tapete refrescante",
-      "subtitulo": "O frescor que seu pet merece",
-      "descricao": "O produto é um colchonete de nylon, recheado com espuma e gel (não tóxico), que promete refrescar os bichos. O gel interno é ativado com o peso e a pressão do animal, ou seja, começa a funcionar quando o pet está sobre ele. O tapete promete baixar a temperatura entre 6ºC e 10°C em relação à registrada no ambiente.",
-      "categoria": "bem-estar"
+    "-NpdnETt39mx0yuUILao": {
+      "categoria": "Terror pra ficar desconfortável",
+      "curiosidade": "A Bruxa é elogiado por sua atmosfera sombria e sua fidelidade à linguagem e costumes da Nova Inglaterra do século XVII.",
+      "diretor": "Robert Eggers",
+      "imagem": "/images/Bruxa.jpg",
+      "nota": 9.2,
+      "resenha": "A Bruxa é uma obra-prima do horror, imersa na atmosfera sombria e opressiva da Nova Inglaterra do século XVII. Robert Eggers cria uma experiência cinematográfica única, mergulhando os espectadores em um conto de horror folclórico. A fidelidade aos costumes da época e a intensidade crescente fazem deste filme uma experiência arrepiante. As performances convincentes do elenco, combinadas com uma trilha sonora envolvente, elevam A Bruxa a um patamar excepcional no mundo do terror.",
+      "subtitulo": "A floresta esconde segredos sombrios",
+      "titulo": "A Bruxa"
     },
-    {
-      "id": 3,
-      "titulo": "Cuidado com as pulgas!",
-      "subtitulo": "Evite que seus animais sejam afetados por esses parasitas",
-      "descricao": "Para prevenir que o seu pet seja infestado, coleiras e sprays anti-pulgas e carrapatos são boas opções. Procure uma clínica veterinária para saber qual é a melhor escolha para o seu animal, de acordo com o porte, tipo de pelo e idade. Os sprays precisam ser reforçados a cada 30 dias para que o efeito seja mantido.",
-      "categoria": "bem-estar"
+    "-NpdnETt4rQTtwLbC1iz": {
+      "categoria": "Terror pra ficar desconfortável",
+      "curiosidade": "O Babadook recebeu aclamação crítica por suas performances e abordagem psicológica, explorando temas de luto e medo.",
+      "diretor": "Jennifer Kent",
+      "imagem": "/images/Babadook.jpg",
+      "nota": 9.1,
+      "resenha": "O Babadook é um mergulho profundo nos horrores da mente humana, utilizando o terror psicológico para criar uma experiência angustiante. Jennifer Kent dirige com sensibilidade, explorando temas complexos de luto e medo. As performances excepcionais de Essie Davis e Noah Wiseman contribuem para a autenticidade emocional do filme. A atmosfera sombria e a construção lenta da tensão fazem de O Babadook uma jornada perturbadora, onde os verdadeiros monstros podem estar dentro de nós. Uma reflexão poderosa sobre os limites da sanidade e a natureza do medo.",
+      "subtitulo": "Não olhe, ele está lá fora",
+      "titulo": "O Babadook"
     },
-    {
-      "id": 4,
-      "titulo": "Uma onda de pets estressados",
-      "subtitulo": "Você está triste, doente ou nervoso, e o pet acaba imitando o seu comportamento",
-      "descricao": "Atenção e carinho. A primeira coisa que você deve saber, caso ainda não tenha adotado um pet, é que ele demanda tempo, atenção e carinho. Essas são as coisas mais importantes que você precisa ter em mente! Não se esqueça das brincadeiras! A interação com o dono também é fundamental para o bem-estar do pet. Por isso, além de oferecer brinquedos, procure brincar com o cão lançando bolinhas, brincando de esconde-esconde, etc., Evite deixar o bichinho sozinho por muito tempo.",
-      "categoria": "comportamento"
+    "-NpdnETt9V7tFu1Ph1R5": {
+      "categoria": "Chuva de sangue",
+      "curiosidade": "A franquia Jogos Mortais é conhecida por suas reviravoltas elaboradas e armadilhas mortais, sendo um marco no gênero de terror psicológico.",
+      "diretor": "James Wan",
+      "imagem": "/images/Jogos.jpg",
+      "nota": 9.5,
+      "resenha": "Jogos Mortais é uma montanha-russa psicológica que mantém os espectadores à beira de seus assentos do início ao fim. Sob a direção magistral de James Wan, o filme apresenta uma trama intrincada, cheia de reviravoltas que desafiam as expectativas. As armadilhas mortais são engenhosamente elaboradas, proporcionando momentos de agonia e suspense. A atmosfera sombria e a trilha sonora arrepiante contribuem para a tensão constante. As performances do elenco são convincentes, destacando-se a habilidade de Wan em criar um terror psicológico que permanece na mente do espectador muito depois dos créditos finais. Jogos Mortais é uma experiência intensa que eleva o gênero a novos patamares.",
+      "subtitulo": "Você quer jogar um jogo?",
+      "titulo": "Jogos Mortais"
     },
-    {
-      "id": 5,
-      "titulo": "Como deixar seu pet mais corajoso?",
-      "subtitulo": "A interação é o fator decisivo nesse aprendizado",
-      "descricao": "Uma dica essencial de como acalmar um cachorro medroso é associar a situação de medo com um agrado: um petisco, um carinho ou uma brincadeira. Dessa forma, pouco a pouco, a memória do pet vai se acostumar com aquela situação e ele vai se sentir mais confortável e confiante. Fique por perto mas não force a interação.",
-      "categoria": "comportamento"
+    "-NpdnETtAVTqZ89-3fsB": {
+      "categoria": "Mocumentary",
+      "curiosidade": "Bruxa de Blair popularizou o estilo de filmagem encontrado e marketing viral, criando um fenômeno cultural.",
+      "diretor": "Daniel Myrick, Eduardo Sánchez",
+      "imagem": "/images/Blair.jpg",
+      "nota": 8.9,
+      "resenha": "Bruxa de Blair é uma experiência única no cinema de terror, explorando os limites entre realidade e ficção. Daniel Myrick e Eduardo Sánchez criam um falso documentário que mergulha os espectadores em uma jornada de terror e desespero. A abordagem inovadora de filmagem encontrada e o marketing viral transformam este filme em um fenômeno cultural, desafiando as convenções tradicionais. O desaparecimento na floresta se torna um pesadelo palpável, à medida que a tensão aumenta. Bruxa de Blair é mais do que um filme, é uma experiência imersiva que deixou uma marca duradoura no gênero.",
+      "subtitulo": "O desaparecimento na floresta",
+      "titulo": "Bruxa de Blair"
     },
-    {
-      "id": 6,
-      "titulo": "Por que os gatos ronronam?",
-      "subtitulo": "Ronronar é um ruído de aviso",
-      "descricao": "As investigações científicas anteriores mostraram que os gatos não ronronam apenas quando estão felizes, mas também quando estão angustiados ou estão com medo. Ronronar é um mecanismo de defesa que têm e uma maneira de manter a calma em situações estressantes.",
-      "categoria": "comportamento"
+    "-NpdnETtCkR7T3veyCCp": {
+      "categoria": "Chuva de sangue",
+      "curiosidade": "O filme é inspirado em eventos reais, mas sua narrativa é ficcional. Leatherface se tornou um dos vilões mais temidos do cinema.",
+      "diretor": "Tobe Hooper",
+      "imagem": "/images/Massacre.jpg",
+      "nota": 9.4,
+      "resenha": "Massacre da Serra Elétrica é um pesadelo visceral que continua a assombrar o cinema de terror. Tobe Hooper entrega uma experiência brutal, inspirada em eventos reais, mas mergulhada na ficção mais sombria. A narrativa implacável e a criação de Leatherface como um ícone do horror contribuem para a reputação duradoura do filme. A abordagem crua e intensa de Hooper estabelece este clássico como um marco do terror, mantendo-se assustador mesmo décadas após seu lançamento.",
+      "subtitulo": "O terror rural texano",
+      "titulo": "Massacre da Serra Elétrica"
     },
-    {
-      "id": 7,
-      "titulo": "Como fazer o gato obedecer?",
-      "subtitulo": "Sim! Se ele fez tudo direitinho merece um agrado",
-      "descricao": "Para fazer o seu gato te obedecer, a maneira correta e também a mais efetiva, é criar uma rotina de recompensas para as atitudes corretas dele e de repreensão para aquelas que são desagradáveis. Assim, se o seu gato for obediente, recompense-o com petiscos ou carinho.",
-      "categoria": "comportamento"
+    "-NpdnETtPzG8BzqwHvb5": {
+      "categoria": "Terror pra ficar desconfortável",
+      "curiosidade": "O filme é baseado no livro homônimo de Stephen King e é conhecido por suas cenas icônicas, como o elevador jorrando sangue.",
+      "diretor": "Stanley Kubrick",
+      "imagem": "/images/Iluminado.jpg",
+      "nota": 9.5,
+      "resenha": "O Iluminado, sob a direção magistral de Stanley Kubrick, é uma jornada perturbadora pela insanidade. Adaptado da obra-prima de Stephen King, o filme transporta os espectadores para um hotel isolado, onde a loucura se desdobra de maneiras imprevisíveis. A cinematografia brilhante de Kubrick e as performances marcantes elevam o suspense a níveis aterrorizantes. Cenas memoráveis, como o elevador de sangue, tornam este clássico uma experiência inesquecível e essencial para os amantes do horror.",
+      "subtitulo": "A insanidade em um hotel isolado",
+      "titulo": "O Iluminado"
     },
-    {
-      "id": 8,
-      "titulo": "Tartaruga: Um pet fácil de cuidar!",
-      "subtitulo": "A alimentação da tartaruga é simples e fácil de encontrar",
-      "descricao": "A dieta deve contar com a ingestão de ração, frutas e vegetais como cenouras, maças e mamão, além de feijão verde e espinafre. Outro complemento essencial para a manutenção da proteína é a ingestão de tenébrios vivos ou desidratados. O normal é que um animal jovem coma mais carne, mas passe a preferir frutas e legumes quando for ficando idoso. A alimentação deve ser composta por aproximadamente 80% a 90% de legumes e flores e somente 10% a 20% de frutas.",
-      "categoria": "bem-estar"
+    "-NpdnETtTTGBh8iR3p4B": {
+      "categoria": "Mocumentary",
+      "curiosidade": "Rec é um filme de terror espanhol conhecido por sua abordagem de estilo documentário e intensidade crescente.",
+      "diretor": "Jaume Balagueró, Paco Plaza",
+      "imagem": "/images/Rec.jpg",
+      "nota": 8.6,
+      "resenha": "Rec é uma obra-prima do terror espanhol, capturando a intensidade do gênero por meio de uma abordagem de estilo documentário. Jaume Balagueró e Paco Plaza entregam uma experiência claustrofóbica e aterrorizante, enquanto os personagens ficam presos no prédio do terror. A cinematografia frenética e o ritmo implacável criam uma sensação de urgência que envolve os espectadores. A combinação de elementos sobrenaturais e uma pitada de realismo fazem de Rec uma experiência única e angustiante que redefine as expectativas para filmes de terror mockumentary.",
+      "subtitulo": "Presos no prédio do terror",
+      "titulo": "Rec"
+    },
+    "-NpdnETtUAsuSm_QE7Cb": {
+      "categoria": "Terror pra cagões",
+      "curiosidade": "O Exorcista é considerado um dos filmes mais assustadores de todos os tempos e foi indicado a 10 Oscars.",
+      "diretor": "William Friedkin",
+      "imagem": "/images/Exorcista.jpg",
+      "nota": 9.7,
+      "resenha": "O Exorcista é uma obra-prima do horror, elevando a possessão demoníaca a níveis aterrorizantes. William Friedkin dirige com maestria, criando uma atmosfera de horror visceral. As performances memoráveis, especialmente a de Linda Blair, elevam o filme a um patamar assustador. Cenas chocantes e efeitos visuais inovadores para a época contribuem para a reputação duradoura deste clássico. A narrativa arrepiante e a intensidade emocional fazem de O Exorcista uma experiência única e perturbadora que permanece como referência no gênero.",
+      "subtitulo": "A possessão demoníaca",
+      "titulo": "O Exorcista"
+    },
+    "-NpdnETtc_6g6EFWwJN9": {
+      "categoria": "Terror pra ficar desconfortável",
+      "curiosidade": "O Sexto Sentido é conhecido por seu final surpreendente e pela atuação marcante de Haley Joel Osment.",
+      "diretor": "M. Night Shyamalan",
+      "imagem": "/images/Sexto.jpg",
+      "nota": 9.3,
+      "resenha": "O Sexto Sentido é uma obra-prima do suspense sobrenatural, marcada pela narrativa envolvente e um final surpreendente que se tornou icônico. M. Night Shyamalan demonstra sua habilidade única em criar atmosferas de suspense e explorar temas complexos. A atuação impressionante de Haley Joel Osment, juntamente com a direção meticulosa de Shyamalan, eleva este filme a um nível superior. Cada cena é carregada de tensão, e a revelação final é um golpe emocional que ressoa muito além da tela. O Sexto Sentido permanece como um clássico do gênero, lembrando-nos do poder do desconhecido e do inesperado.",
+      "subtitulo": "Eu vejo pessoas mortas",
+      "titulo": "O Sexto Sentido"
+    },
+    "-NpdnETtiW8hWvuvOxM-": {
+      "categoria": "Terror pra cagões",
+      "curiosidade": "O personagem Freddy Krueger se tornou um ícone do cinema de terror e é conhecido por assombrar os sonhos de suas vítimas.",
+      "diretor": "Wes Craven",
+      "imagem": "/images/Pesadelo.jpg",
+      "nota": 9,
+      "resenha": "Pesadelo na Rua Elm é um clássico do terror que mergulha nas profundezas dos pesadelos e traz à vida o temível Freddy Krueger. Wes Craven entrega uma experiência assustadora, explorando os medos mais sombrios do subconsciente. A trama engenhosa mantém os espectadores à beira de seus assentos, enquanto o terror se desenrola nos sonhos dos personagens. A habilidade de Craven em criar atmosferas intensas e imagens perturbadoras faz deste filme uma obra-prima do gênero. Uma viagem angustiante pelos cantos mais obscuros da mente humana.",
+      "subtitulo": "Não durma, Freddy está à solta",
+      "titulo": "Pesadelo na Rua Elm"
+    },
+    "-NpdnETtttA4Hr3gbu6B": {
+      "categoria": "Terror pra cagões",
+      "curiosidade": "Pânico revitalizou o gênero de filmes slasher nos anos 90 e é conhecido por seu humor metaficcional e reviravoltas surpreendentes.",
+      "diretor": "Wes Craven",
+      "imagem": "/images/Panico.jpg",
+      "nota": 8.8,
+      "resenha": "Pânico é uma reinvenção brilhante do slasher, mesclando suspense e humor de maneira magistral. Wes Craven mais uma vez prova sua maestria no gênero, criando um filme que é ao mesmo tempo tenso e divertido. As reviravoltas inesperadas mantêm o público na ponta da cadeira, enquanto o filme brinca com as convenções do horror. Uma mistura única de sustos e risos, Pânico se destaca como um dos filmes mais inteligentes e envolventes do gênero.",
+      "subtitulo": "Quem está por trás da máscara?",
+      "titulo": "Pânico"
+    },
+      "-NpdnETtyuD9Hr3gcv3A": {
+        "categoria": "terror pra cagões",
+        "curiosidade": "Sequência do filme de horror antológico 'VHS', VHS 2 apresenta histórias aterrorizantes encontradas em fitas VHS.",
+        "diretor": "Simon Barrett, Adam Wingard, Eduardo Sánchez, entre outros",
+        "imagem": "VHS2.jpg",
+        "nota": 4.5,
+        "resenha": "VHS 2 entrega uma dose intensa de horror, com histórias envolventes e visuais impressionantes. Prepare-se para alguns sustos genuínos!",
+        "subtitulo": "Presencie o horror através das fitas VHS",
+        "titulo": "VHS 2"
+      },
+      "-NpdnETtuxWvOhuM": {
+        "categoria": "terror pra ficar desconfortável",
+        "curiosidade": "Megalomaniac mergulha nas profundezas da psique humana, explorando os limites do desconforto e da paranoia.",
+        "diretor": "Alice Johnson",
+        "imagem": "megalomaniac.jpg",
+        "nota": 3.8,
+        "resenha": "Um filme perturbador que desafia as fronteiras do terror psicológico. A mente humana nunca foi tão assustadora quanto neste thriller angustiante.",
+        "subtitulo": "Quando a mente se torna o verdadeiro labirinto do terror",
+        "titulo": "Megalomaniac"
+      },
+      "-NpdnETtklqasipM": {
+        "categoria": "chuva de sangue",
+        "curiosidade": "Fale Comigo é uma jornada sangrenta e visceral que mistura elementos de horror e suspense em uma trama repleta de reviravoltas.",
+        "diretor": "Ana Silva",
+        "imagem": "Talk.jpg",
+        "nota": 4.0,
+        "resenha": "Um festival de sangue e suspense que mantém os espectadores na ponta de seus assentos. Uma experiência cinematográfica única e arrepiante.",
+        "subtitulo": "Quando as palavras se transformam em sangue",
+        "titulo": "Fale Comigo"
+      }
     }
-  ]
-}
+    
+  }

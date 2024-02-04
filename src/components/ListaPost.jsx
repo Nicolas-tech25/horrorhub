@@ -8,7 +8,8 @@ export default function ListaPosts({ posts }) {
       {posts.map((post) => {
         return (
           <article key={post.id}>
-            <Link href="">
+            <Link href={`/posts/${post.id}`}>
+              <img src={post.imagem} alt="" srcset="" />
               <h3>{post.titulo}</h3>
               <p>{post.subtitulo}</p>
             </Link>
@@ -43,6 +44,9 @@ const StyledListaPosts = styled.div`
     cursor: pointer;
     transform: scale(1.05);
   }
+  img {
+    width: 100%;
+  }
 
   @media screen and (min-width: 500px) {
     display: flex;
@@ -50,7 +54,7 @@ const StyledListaPosts = styled.div`
     flex-wrap: wrap;
 
     article {
-      width: 49%;
+      width: 20%;
     }
   }
 `;

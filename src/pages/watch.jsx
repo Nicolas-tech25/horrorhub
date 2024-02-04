@@ -46,12 +46,12 @@ export default function Watch({ posts }) {
   return (
     <>
       <Head>
-        <title>CineWorld - Watch</title>
+        <title>Watch - HorrorHub</title>
         <meta
           name="description"
-          content="Site que fala de filmes e suas curiosidades"
+          content="filmes e suas curiosidades"
         />
-        <meta name="keywords" content="Movies,icebergs,curiosidades" />
+        <meta name="keywords" content="Movies,curiosidades, resenha crítica, nota" />
       </Head>
       <StyledWatch>
         <h1>Conheça o mundo do horror com algumas curiosidades:</h1>
