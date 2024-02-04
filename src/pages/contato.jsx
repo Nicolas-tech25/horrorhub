@@ -1,8 +1,16 @@
+import { useForm } from 'react-hook-form';
 import Container from "@/components/ui/Container";
 import Head from "next/head";
 import styled from "styled-components";
 
 export default function Contato() {
+  const { register, handleSubmit } = useForm();
+
+  const onSubmit = (data) => {
+    // Lógica para lidar com os dados do formulário
+    console.log(data);
+  };
+
   return (
     <>
       <Head>
@@ -15,32 +23,29 @@ export default function Contato() {
       </Head>
       <StyledContato>
         <h2>Fale Conosco</h2>
-
         <Container>
-          <form action="" method="post">
-            <div>
-              <label htmlFor="nome">Nome:</label>
-              <input type="text" name="nome" id="nome" />
-            </div>
-            <div>
-              <label htmlFor="email">Email:</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div>
-              <label htmlFor="mensagem">Mensagem:</label>
-              <textarea
-                maxLength={500}
-                type="email"
-                name="mensagem"
-                id="mensagem"
-                cols={30}
-                rows={8}
-              ></textarea>
-            </div>
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <label htmlFor="name">Nome:</label>
+            <input
+              type="text"
+              id="name"
+              {...register('name', { required: true })}
+            />
 
-            <div>
-              <button type="submit">Enviar mensagem</button>
-            </div>
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              {...register('email', { required: true })}
+            />
+
+            <label htmlFor="message">Mensagem:</label>
+            <textarea
+              id="message"
+              {...register('message', { required: true })}
+            ></textarea>
+
+            <button type="submit">Enviar</button>
           </form>
         </Container>
       </StyledContato>
@@ -49,52 +54,61 @@ export default function Contato() {
 }
 
 const StyledContato = styled.section`
-  h2::before {
-    content: "💌 ";
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
   }
+
   form {
-    margin: 0 auto;
-    width: 50%;
-    height: 50%;
-    background-color: #9e9d9d62;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
     padding: 20px;
+    border-radius: 8px;
+    background-color: #202020;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+    label {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    input,
+    textarea {
+      margin-bottom: 10px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
   }
 
-  form div {
-    margin: 2rem;
-  }
-
-  label {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-
-  input,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    background-color: #f7f7f7;
-    font-size: 1rem;
-  }
-
-  button {
-    float: center;
-    background-color: var(--cor-primaria-fundo);
-    color: #f7f7f7;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.2rem;
-  }
-
-  button:hover {
-    background-color: #45a049;
+  @media (min-width: 768px) {
+    form {
+      max-width: 600px;
+    }
   }
 `;
