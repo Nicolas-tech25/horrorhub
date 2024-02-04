@@ -43,7 +43,7 @@ const StyledNav = styled.nav`
 
     &:hover,
     &:focus {
-      background-color: var(--cor-primaria-fundo-hover);
+      background-color: #000;
     }
 
     @media screen and (min-width: 700px) {

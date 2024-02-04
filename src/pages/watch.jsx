@@ -54,7 +54,7 @@ export default function Watch({ posts }) {
         <meta name="keywords" content="Movies,curiosidades, resenha crítica, nota" />
       </Head>
       <StyledWatch>
-        <h1>Conheça o mundo do horror com algumas curiosidades:</h1>
+        <h2>Conheça o mundo do horror com algumas curiosidades:</h2>
 
         <Container>
           <h3>Terror pra cagões:</h3>

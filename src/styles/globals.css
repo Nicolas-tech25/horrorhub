@@ -6,7 +6,7 @@
 }
 /* Variáveis CSS */
 :root {
-  --cor-primaria-fundo: #0b0a3f;
+  --cor-primaria-fundo: #6666ff;
   --cor-primaria-fundo-hover: #030226;
   --cor-primaria: #f2f2f2;
   --cor-primaria-hover: #ebebeb;
@@ -24,7 +24,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #ededf7;
+  background-image: url("/images/background.jpg");
 
   /* Propriedades recomendadas para
   minimizar a chance de serrilhamento de fontes

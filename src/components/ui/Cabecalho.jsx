@@ -25,7 +25,7 @@ export default function Cabecalho() {
 }
 
 const StyledHeader = styled.header`
-  background-color: #f7f7f7;
+  background-color: #202020;
   box-shadow: var(--sombra-box);
   h1 a {
     text-decoration: none;
