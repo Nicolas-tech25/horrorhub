@@ -13,9 +13,9 @@ export default function Cabecalho() {
               src="/images/logo.png"
               width={48}
               height={48}
-              alt="Patinha dentro de um coração"
+              alt="fitas cacetes"
             />
-            PetShop
+            HorrorHub
           </Link>
         </h1>
         <Menu />

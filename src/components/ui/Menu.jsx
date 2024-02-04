@@ -8,16 +8,10 @@ export default function Menu() {
   return (
     <StyledNav>
       <Link href="/" className={rotaAtual == "/" ? "ativo" : ""}>
-        Blog
+        Home
       </Link>
-      <Link
-        href="/produtos"
-        className={rotaAtual == "/produtos" ? "ativo" : ""}
-      >
-        Produtos
-      </Link>
-      <Link href="/sobre" className={rotaAtual == "/sobre" ? "ativo" : ""}>
-        Sobre
+      <Link href="/watch" className={rotaAtual == "/watch" ? "ativo" : ""}>
+        Watch
       </Link>
       <Link href="/contato" className={rotaAtual == "/contato" ? "ativo" : ""}>
         Contato
