@@ -52,18 +52,18 @@ export default function Watch({ posts, categorias }) {
     <>
       <Head>
         <title>Watch - HorrorHub</title>
+        <meta name="description" content="filmes e suas curiosidades" />
         <meta
-          name="description"
-          content="filmes e suas curiosidades"
+          name="keywords"
+          content="Movies,curiosidades, resenha crítica, nota"
         />
-        <meta name="keywords" content="Movies,curiosidades, resenha crítica, nota" />
       </Head>
       <StyledWatch>
         <h2>Conheça o mundo do horror com algumas curiosidades:</h2>
 
         <Container>
           {categorias.map((categoria) => (
-            <article key={categoria}>
+            <article className="cards" key={categoria}>
               <h1>{categoria}:</h1>
               <ListaPosts posts={postsPorCategoria(categoria)} />
             </article>
@@ -87,9 +87,6 @@ const StyledWatch = styled.section`
   @media screen and (min-width: 400px) {
     h1 {
       font-size: 1.5rem;
-    }
-    article{
-      padding:10px;
     }
   }
 `;

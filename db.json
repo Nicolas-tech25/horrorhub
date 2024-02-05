@@ -120,48 +120,86 @@
       "subtitulo": "Quem está por trás da máscara?",
       "titulo": "Pânico"
     },
-      "-NpdnETtyuD9Hr3gcv3A": {
-        "categoria": "Mocumentary",
-        "curiosidade": "Sequência do filme de horror antológico 'VHS', VHS 2 apresenta histórias aterrorizantes encontradas em fitas VHS.",
-        "diretor": "Simon Barrett, Adam Wingard, Eduardo Sánchez, entre outros",
-        "imagem": "/images/VHS2.jpg",
-        "nota": 5.5,
-        "resenha": "VHS 2 entrega uma dose intensa de horror, com histórias envolventes e visuais impressionantes. Prepare-se para alguns sustos genuínos!",
-        "subtitulo": "Presencie o horror através das fitas VHS",
-        "titulo": "VHS 2"
-      },
-      "-NpdnETtklqasipM": {
-        "categoria": "Chuva de sangue",
-        "curiosidade": "Fale Comigo é uma jornada sangrenta e visceral que mistura elementos de horror e suspense em uma trama repleta de reviravoltas.",
-        "diretor": "Ana Silva",
-        "imagem": "/images/Talk.jpg",
-        "nota": 9.0,
-        "resenha": "Um festival de sangue e suspense que mantém os espectadores na ponta de seus assentos. Uma experiência cinematográfica única e arrepiante.",
-        "subtitulo": "Quando as palavras se transformam em sangue",
-        "titulo": "Fale Comigo"
-      },
-      
+    "-NpdnETtyuD9Hr3gcv3A": {
+      "categoria": "Mocumentary",
+      "curiosidade": "Sequência do filme de horror antológico 'VHS', VHS 2 apresenta histórias aterrorizantes encontradas em fitas VHS.",
+      "diretor": "Simon Barrett, Adam Wingard, Eduardo Sánchez, entre outros",
+      "imagem": "/images/VHS2.jpg",
+      "nota": 5.5,
+      "resenha": "VHS 2 entrega uma dose intensa de horror, com histórias envolventes e visuais impressionantes. Prepare-se para alguns sustos genuínos!",
+      "subtitulo": "Presencie o horror através das fitas VHS",
+      "titulo": "VHS 2"
+    },
+    "-NpdnETtklqasipM": {
+      "categoria": "Chuva de sangue",
+      "curiosidade": "Fale Comigo é uma jornada sangrenta e visceral que mistura elementos de horror e suspense em uma trama repleta de reviravoltas.",
+      "diretor": "Ana Silva",
+      "imagem": "/images/Talk.jpg",
+      "nota": 9.0,
+      "resenha": "Um festival de sangue e suspense que mantém os espectadores na ponta de seus assentos. Uma experiência cinematográfica única e arrepiante.",
+      "subtitulo": "Quando as palavras se transformam em sangue",
+      "titulo": "Fale Comigo"
+    },
 
-"-NpdnETtrwzbhvjI": {
-  "categoria": "Mocumentary",
-  "curiosidade": "O Holocausto Canibal foi lançado em 1980 e é conhecido por sua abordagem extremamente gráfica e controversa. O filme foi proibido em vários países devido às suas cenas explícitas e foi objeto de controvérsias sobre se algumas cenas eram reais ou encenadas.",
-  "diretor": "Ruggero Deodato",
-  "imagem": "/images/Canibal.jpg",
-  "nota": 6,
-  "resenha": "O Holocausto Canibal é um mocumentário visceral que desafia os limites da representação cinematográfica. Dirigido por Ruggero Deodato, o filme mergulha os espectadores em uma jornada perturbadora, explorando os extremos da natureza humana e questionando a ética por trás da busca pela verdade a qualquer custo. A obra é um marco no gênero, deixando uma impressão duradoura na história do cinema de horror.",
-  "subtitulo": "A Fronteira Final da Crueldade",
-  "titulo": "O Holocausto Canibal"
-},
-"-NpdnETtjxzolgdF": {
-  "categoria": "Chuva de sangue",
-  "curiosidade": "Baskin é um filme turco de terror lançado em 2015 que atraiu a atenção por sua atmosfera sombria e imagens perturbadoras. O título refere-se a uma virada inesperada que os personagens principais enfrentam ao entrar em um pesadelo surreal.",
-  "diretor": "Can Evrenol",
-  "imagem": "/images/Baskin.jpg",
-  "nota": 6.8,
-  "resenha": "Baskin é uma jornada aterrorizante dirigida por Can Evrenol, que leva os espectadores a um mundo de horror visceral e simbolismo sombrio. O filme mergulha na psique humana, explorando o desconhecido com uma mistura única de imagens impactantes e enredos perturbadores. A atmosfera intensa e a narrativa desconcertante fazem de Baskin uma experiência cinematográfica inesquecível para os amantes do terror.",
-  "subtitulo": "A Jornada ao Coração das Trevas",
-  "titulo": "Baskin"
-}
+    "-NpdnETtrwzbhvjI": {
+      "categoria": "Mocumentary",
+      "curiosidade": "O Holocausto Canibal foi lançado em 1980 e é conhecido por sua abordagem extremamente gráfica e controversa. O filme foi proibido em vários países devido às suas cenas explícitas e foi objeto de controvérsias sobre se algumas cenas eram reais ou encenadas.",
+      "diretor": "Ruggero Deodato",
+      "imagem": "/images/Canibal.jpg",
+      "nota": 6,
+      "resenha": "O Holocausto Canibal é um mocumentário visceral que desafia os limites da representação cinematográfica. Dirigido por Ruggero Deodato, o filme mergulha os espectadores em uma jornada perturbadora, explorando os extremos da natureza humana e questionando a ética por trás da busca pela verdade a qualquer custo. A obra é um marco no gênero, deixando uma impressão duradoura na história do cinema de horror.",
+      "subtitulo": "A Fronteira Final da Crueldade",
+      "titulo": "O Holocausto Canibal"
+    },
+    "-NpdnETtjxzolgdF": {
+      "categoria": "Chuva de sangue",
+      "curiosidade": "Baskin é um filme turco de terror lançado em 2015 que atraiu a atenção por sua atmosfera sombria e imagens perturbadoras. O título refere-se a uma virada inesperada que os personagens principais enfrentam ao entrar em um pesadelo surreal.",
+      "diretor": "Can Evrenol",
+      "imagem": "/images/Baskin.jpg",
+      "nota": 6.8,
+      "resenha": "Baskin é uma jornada aterrorizante dirigida por Can Evrenol, que leva os espectadores a um mundo de horror visceral e simbolismo sombrio. O filme mergulha na psique humana, explorando o desconhecido com uma mistura única de imagens impactantes e enredos perturbadores. A atmosfera intensa e a narrativa desconcertante fazem de Baskin uma experiência cinematográfica inesquecível para os amantes do terror.",
+      "subtitulo": "A Jornada ao Coração das Trevas",
+      "titulo": "Baskin"
+    },
+    "-NpdnETtrqjmcsyU": {
+      "categoria": "Clássicos do terror",
+      "curiosidade": "Candyman é um filme de terror lançado em 1992, baseado no conto The Forbidden de Clive Barker. O filme explora temas de racismo e lendas urbanas, sendo elogiado por sua atmosfera assustadora e performances sólidas.",
+      "diretor": "Bernard Rose",
+      "imagem": "/images/Candyman.jpg",
+      "nota": 8,
+      "resenha": "Candyman é um clássico do terror que mistura elementos sobrenaturais e sociais. A trama envolvente e a atuação marcante tornam esse filme uma obra memorável.",
+      "subtitulo": "Uma lenda urbana mortal",
+      "titulo": "Candyman"
+    },
+    "-NpdnETtpiufhsaQ": {
+      "categoria": "Clássicos do terror",
+      "curiosidade": "Nosferatu é um filme mudo alemão lançado em 1922, dirigido por F. W. Murnau. É uma adaptação não autorizada do romance Drácula de Bram Stoker, com Max Schreck no papel icônico de Conde Orlok.",
+      "diretor": "F. W. Murnau",
+      "imagem": "/images/Nosferatu.jpg",
+      "nota": 9,
+      "resenha": "Nosferatu é uma obra-prima do cinema expressionista alemão. A atmosfera sombria, a cinematografia única e a atuação assustadora de Max Schreck contribuem para sua reputação como um dos melhores filmes de terror de todos os tempos.",
+      "subtitulo": "O vampiro original",
+      "titulo": "Nosferatu"
+    },
+    "-NpdnETtiaxdhlkY": {
+      "categoria": "Clássicos do terror",
+      "curiosidade": "Psicose é um thriller psicológico dirigido por Alfred Hitchcock, lançado em 1960. Baseado no romance de Robert Bloch, o filme é conhecido por sua trama intrigante e o infame chuveiro cena.",
+      "diretor": "Alfred Hitchcock",
+      "imagem": "/images/Psicose.jpg",
+      "nota": 10,
+      "resenha": "Psicose é uma obra-prima do suspense psicológico. Alfred Hitchcock cria uma atmosfera tensa e surpreendente, com reviravoltas memoráveis. A trilha sonora e a atuação de Anthony Perkins como Norman Bates são destaques.",
+      "subtitulo": "O clássico dos sustos",
+      "titulo": "Psicose"
+    },
+    "-NpdnETtlFgertyW": {
+      "categoria": "Clássicos do terror",
+      "curiosidade": "A Mosca é um filme de horror e ficção científica lançado em 1986, dirigido por David Cronenberg. É uma recriação do filme homônimo de 1958, com Jeff Goldblum no papel principal.",
+      "diretor": "David Cronenberg",
+      "imagem": "/images/Mosca.jpg",
+      "nota": 9,
+      "resenha": "A Mosca é um clássico do gênero de body horror. O filme explora temas de transformação física e identidade, com performances cativantes, especialmente de Jeff Goldblum. A maquiagem e efeitos especiais contribuem para criar uma experiência visualmente impressionante e assustadora.",
+      "subtitulo": "Uma metamorfose aterrorizante",
+      "titulo": "A Mosca"
     }
-    
   }
+}

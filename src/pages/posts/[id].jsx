@@ -45,20 +45,22 @@ export default function Post({ post }) {
         <h2>{post.titulo}</h2>
         <Container>
           <article>
-          <img src={post.imagem} alt="" />
-          <h3>
-            Diretor: <i>{post.diretor}</i>
-          </h3>
-          <p>
-            <b>Resenha Crítica:</b> {post.resenha}
-          </p>
-          <p>
-            <b>Curiosidade:</b> {post.curiosidade}
-          </p>
-          <p>
-              <b>Nota para esta obra: </b>
-            <i>{post.nota}/10</i>
-          </p>
+            <img src={post.imagem} alt="" />
+            <div>
+              <h3>
+                Diretor: <i>{post.diretor}</i>
+              </h3>
+              <p>
+                <b>Resenha Crítica:</b> {post.resenha}
+              </p>
+              <p>
+                <b>Curiosidade:</b> {post.curiosidade}
+              </p>
+              <p>
+                <b>Nota para esta obra: </b>
+                <i>{post.nota}/10</i>
+              </p>
+            </div>
           </article>
         </Container>
       </StyledPost>
@@ -67,8 +69,23 @@ export default function Post({ post }) {
 }
 
 const StyledPost = styled.article`
-img{
-  width: 30%;
-}
-i{color: var(--cor-primaria-fundo);}
+  img {
+    width: 30%;
+  }
+  i {
+    color: var(--cor-primaria-fundo);
+  }
+  article {
+    display: flex;
+    gap: 10px;
+  }
+  @media screen and (max-width: 500px) {
+    article {
+      flex-direction: column;
+    }
+    img {
+      width: 60%;
+      margin: auto;
+    }
+  }
 `;

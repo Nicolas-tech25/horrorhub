@@ -10,7 +10,7 @@
     "api": "json-server --host 10.20.46.20 db.json --port 2112"
   },
   "dependencies": {
-    "next": "14.0.4",
+    "next": "^14.0.4",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.50.0",

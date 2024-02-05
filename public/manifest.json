@@ -1,0 +1,19 @@
+{
+  "short_name": "HorrorHub Nicolas",
+  "name": "HorrorHub de filmes",
+  "description": "Exemplo de PWA creada com Next.js",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "lang": "pt-br"
+}

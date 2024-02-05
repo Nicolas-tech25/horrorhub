@@ -4,14 +4,12 @@ import styled from "styled-components";
 export default function ListaPosts({ posts }) {
   if (posts.length === 0) return <h3>Ainda não há posts</h3>;
 
-  // Get unique categories from the posts
   const categories = Array.from(new Set(posts.map((post) => post.category)));
 
   return (
     <StyledListaPosts>
       {categories.map((category) => (
         <div key={category}>
-          
           <div className="category-posts">
             {posts
               .filter((post) => post.category === category)
@@ -31,7 +29,6 @@ export default function ListaPosts({ posts }) {
   );
 }
 
-
 const StyledListaPosts = styled.div`
   article {
     background-color: #f7f7f7;
@@ -40,7 +37,7 @@ const StyledListaPosts = styled.div`
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
     transition: transform 200ms;
-    & h3{
+    & h3 {
       font-size: 1.5rem;
     }
 
@@ -73,10 +70,15 @@ const StyledListaPosts = styled.div`
     }
   }
 
+  @media screen and (max-width: 500px) {
+    article {
+      width: 10%;
+    }
+  }
+
   .category-posts {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 `;
