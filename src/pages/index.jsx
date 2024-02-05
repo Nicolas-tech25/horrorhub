@@ -29,7 +29,7 @@ export default function Home() {
         <Container>
           <StyledSlider>
             <Slider {...sliderSettings}>
-              <iframe
+            <iframe
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/smTK_AeAPHs?si=GCw1XC8apDVUbnc6&amp;controls=0"
@@ -62,6 +62,9 @@ export default function Home() {
           <h3>Icebergs</h3>
           <img src="/images/Icebers.png" alt="" />
           <p>
+            Assim como icebergs temos uma camada no horror que conhecemos, podemos dizer que é até meio fraca, mas tem todo o resto que abriga o submundo do terror e é assim que classificamos os filmes.
+          </p>
+          <p>
             Assim como icebergs temos uma camada no horror que conhecemos,podemos dizer que é até meio fraca, mas tem todo o resto que abriga o submundo do terror e é assim que classificamos os filmes.
           </p>
           <p>Aqui classificamos por: </p>
@@ -76,7 +79,6 @@ export default function Home() {
           <p>Já o segundo são aqueles com conteúdos mais profundos/pesados, que transmitem sensações que te deixam pensativos ou levam pra fora da caixa.</p>
           <p>O terceiro serve para o tipo de pessoa que não tem filtro e adora matança... O nome se adequa bem.</p>
           <p>Por fim o último que simula a realidade, por muitos consideirado o terror mais aterrorizante, caso feito bem...</p>
-
         </Container>
       </StyledHome>
     </>
@@ -109,5 +111,13 @@ const StyledSlider = styled.div`
   img {
     width: 100%;
     border-radius: 8px;
+  }
+
+  /* Adicionando Media Query para telas a partir de 400px */
+  @media screen and (min-width: 400px) {
+    .slick-prev,
+    .slick-next {
+      display: block;
+    }
   }
 `;

@@ -75,11 +75,21 @@ export default function Watch({ posts, categorias }) {
 }
 
 const StyledWatch = styled.section`
-h2::before {
-  content: "🎬 ";
-}
-h1{
-  font-size: 1.3rem;
-  color:var(--cor-primaria-fundo);;
-}
+  h2::before {
+    content: "🎬 ";
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    color: var(--cor-primaria-fundo);
+  }
+
+  @media screen and (min-width: 400px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    article{
+      padding:10px;
+    }
+  }
 `;
