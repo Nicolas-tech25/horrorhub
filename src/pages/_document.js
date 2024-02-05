@@ -13,9 +13,9 @@ export default function Document() {
         <meta name="theme-color" content="#000000" />
         <link
           rel="shortcut icon"
-          href="/images/logo.png"
+          href="/images/favicon.png"
           type="image/png"
-          sizes="256x256"
+          sizes="488x344"
         />
         <meta name="author" content="Nicolas O. Amorim" />
       </Head>

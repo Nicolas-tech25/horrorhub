@@ -4,9 +4,9 @@
   "description": "Exemplo de PWA creada com Next.js",
   "icons": [
     {
-      "src": "images/logo.png",
+      "src": "images/favicon.png",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "488x344"
     }
   ],
   "start_url": "/",

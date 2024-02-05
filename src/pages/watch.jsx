@@ -83,10 +83,4 @@ const StyledWatch = styled.section`
     font-size: 1.3rem;
     color: var(--cor-primaria-fundo);
   }
-
-  @media screen and (min-width: 400px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-  }
 `;

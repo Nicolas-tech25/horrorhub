@@ -14,7 +14,7 @@ export default function ListaPosts({ posts }) {
             {posts
               .filter((post) => post.category === category)
               .map((post) => (
-                <article key={post.id}>
+                <article key={post.id} style={{ backgroundImage: post.imagem }}>
                   <Link href={`/posts/${post.id}`}>
                     <img src={post.imagem} alt="" />
                     <h3>{post.titulo}</h3>
@@ -72,7 +72,7 @@ const StyledListaPosts = styled.div`
 
   @media screen and (max-width: 500px) {
     article {
-      width: 10%;
+      width: 50%;
     }
   }
 
