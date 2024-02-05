@@ -60,6 +60,23 @@ export default function Home() {
           </StyledSlider>
           <br />
           <h3>Icebergs</h3>
+          <img src="/images/Icebers.png" alt="" />
+          <p>
+            Assim como icebergs temos uma camada no horror que conhecemos,podemos dizer que é até meio fraca, mas tem todo o resto que abriga o submundo do terror e é assim que classificamos os filmes.
+          </p>
+          <p>Aqui classificamos por: </p>
+          <ol>
+            <li>Terror para cagões</li>
+            <li>Terror para ficar desconfortável</li>
+            <li>Chuva de sangue</li>
+            <li>Mocumentary</li>
+          </ol>
+          <h3>Qual o significado para estas categorias??</h3>
+          <p>O primeiro serve para aqueles que eventualmente assistem ou são as primeiras immpressões sobre o assunto.</p>
+          <p>Já o segundo são aqueles com conteúdos mais profundos/pesados, que transmitem sensações que te deixam pensativos ou levam pra fora da caixa.</p>
+          <p>O terceiro serve para o tipo de pessoa que não tem filtro e adora matança... O nome se adequa bem.</p>
+          <p>Por fim o último que simula a realidade, por muitos consideirado o terror mais aterrorizante, caso feito bem...</p>
+
         </Container>
       </StyledHome>
     </>
